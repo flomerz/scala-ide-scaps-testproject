@@ -1,1 +1,3 @@
-object Hi { def main(args: Array[String]) = println("Hi!") }
+object Main extends App {
+    println("Hi!")
+}

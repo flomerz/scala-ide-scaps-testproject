@@ -5,5 +5,6 @@ lazy val root = (project in file(".")).
     scalaVersion := "2.11.7",
 
     libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.2.1"
-
   )
+
+ EclipseKeys.withSource := true
